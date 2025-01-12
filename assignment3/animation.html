@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            border:2px solid black;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            animation: boxAnimation 5s ease infinite ;
+        }
+        @keyframes boxAnimation{
+            from{
+
+            }
+            to{
+                transform:rotate(180deg);
+            }
+        }
+
+        .a{
+            width:90px;
+            height:90px;
+            margin:auto;
+            margin-top:50vh;
+            background-color: rgb(202, 214, 214);
+            box-shadow:0px 0px 10px 5px rgb(84, 126, 126)
+        }
+        .b{
+            width:80px;
+            height:80px;
+        }
+        .c{
+            width:70px;
+            height:70px;
+            background-color: rgb(233, 252, 252);
+        }
+        .d{
+            width:60px;
+            height:60px;
+        }
+        .e{
+            width:50px;
+            height:50px;
+            background-color: rgb(193, 224, 224);
+
+        }
+        .f{
+            width:40px;
+            height:40px;
+        }
+        .g{
+            width:30px;
+            height:30px;
+            background-color: rgb(141, 232, 232);
+        }
+        .h{
+            width:20px;
+            height:20px;
+        }
+        .i{
+            width:10px;
+            height:10px;
+            background-color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="b">
+            <div class="c">
+                <div class="d">
+                    <div class="e">
+                        <div class="f">
+                            <div class="g">
+                                <div class="h">
+                                    <div class="i"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
